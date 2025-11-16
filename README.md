@@ -6,10 +6,15 @@ Deploy php app on 3 servers behine apache loadbalancer and  connect to DB server
 **********----------------------------***********************Notes******************
 
 172.31.0.0/16 ----------> VPC Cidr
+
 172.31.57.255 ----------> webserver-3-private-ip
+
 172.31.10.135 -----------> webserver-2-private-ip
+
 172.31.24.115 ------------> webserver-1-private-ip
+
 172.31.64.169 ------------> DB-server-private-ip
+
 172.31.25.33 -------------> Private-ip-of-nfs-server
 
 
